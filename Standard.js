@@ -1,13 +1,13 @@
-//program start
-
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
+//sleep function
+function sleep(millisecs) {
+    const dateNow = Date.now();
+    let currDate = null;
     do {
-        currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
+        currDate = Date.now();
+    } while (currDate - dateNow < millisecs);
 }
 
+//program start
 async function start() {
 
     //open new tab as soon as browser is opened
@@ -17,8 +17,7 @@ async function start() {
 
 }
 
-//use async function to... click links in sequence
-
+//use async function to... click links/buttons in sequence
 async function main() {
 
     // get the documents id
@@ -31,13 +30,14 @@ async function main() {
 
 //call start function
 start();
-sleep(10000);
 
 main();
 console.log("End");
 
+//wait for very long time to prevent looping problem. How do we fix this looping problem?
+sleep(1000000);
+
 //let's silver-trian run on startup
-//JSON shyt because JSON is wack & doesn't allow for comments
 /* "background": {
       "scripts": ["Standard.js"]
   }, */
