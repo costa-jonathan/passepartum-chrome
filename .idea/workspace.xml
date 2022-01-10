@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d7808e3-5273-43a3-a47d-5b8f2d78e2d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IMG/moodleWelcomePage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/shibboleth_login_page_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginCampus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTUM.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginShibboleth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moodle.js" beforeDir="false" afterPath="$PROJECT_DIR$/passMoodleWelcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.js" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/save.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1oSjHmJOOYIzTwLatBeG0DqO0FW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\srcPopup" />
+      <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\popup" />
+      <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\IMG" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d7808e3-5273-43a3-a47d-5b8f2d78e2d9" name="Default Changelist" comment="" />
+      <created>1613286804596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613286804596</updated>
+      <workItem from="1613286806615" duration="5209000" />
+      <workItem from="1640277870464" duration="160000" />
+      <workItem from="1640278059779" duration="697000" />
+      <workItem from="1641578587133" duration="335000" />
+      <workItem from="1641831494954" duration="2914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/version-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="186" y="81" key="SettingsEditor" timestamp="1640278120886">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1640278120886" />
+  </component>
+</project>
