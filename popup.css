@@ -43,6 +43,19 @@ body {
 }
 
 
+/* make login button closer to user than submit */
+
+.login {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
 
 .submit {
     cursor: pointer;
@@ -53,6 +66,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     padding: 5px 10px;
+    position: absolute;
+    right: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 

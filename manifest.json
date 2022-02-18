@@ -1,26 +1,25 @@
 {
-  "name": "TUM actually remembers now",
-  "version": "0.1",
-  "manifest_version": 2,
-  "content_scripts": [
-    {
-      "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
-      "js": ["moodle.js"]
+    "name": "TUM actually remembers now",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+            "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
+            "js": ["moodle.js"]
+        },
+        {
+            "matches": ["https://login.tum.de/*"],
+            "js": ["loginTUM.js"]
+        },
+        {
+            "matches": ["https://campus.tum.de/*"],
+            "js": ["loginCampus.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "User Input"
     },
-    {
-      "matches": ["https://login.tum.de/*"],
-      "js": ["loginTUM.js"]
-    },
-    {
-      "matches": ["https://campus.tum.de/*"],
-      "js": ["loginCampus.js"]
-    }
-  ],
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "User Input"
-  },
-  "permissions": [
-    "storage"
-  ]
+    "permissions": [
+        "storage", "activeTab"
+    ]
 }
