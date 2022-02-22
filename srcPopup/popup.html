@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-    <div id="title" class="text"> Enter your login information for moodle </div>
-        <label for="username"></label><input class="input" type="text" id="username" placeholder="username">
-        <label for="password"></label><input class="input" type="password" id="password" placeholder="password">
-        <button class="submit">Submit</button>
+        <h1>
+            Hey there,
+        </h1>
+        <div id="title" class="text">
+            Here you can enter your login information for moodle for even <b>more automation</b>.
+        </div>
+        <div id="text" class="text">
+            If you are concerned about the <b>security</b> of your login data please read our
+            <a href="#" id="go-to-options">information</a>.
+            <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script> <!-- has to be loaded here -->
+            In short your passwords are <b>not encrypted</b> but stored <b>only locally</b>.
+            <br>
+            The security is comparable with the chrome/edge password autofill feature.
+        </div>
+            <!-- todo add a "tip: " that randomly presents tips about the thing -->
+            <label for="username"></label><input class="input" type="text" id="username" placeholder="username">
+            <label for="password"></label><input class="input" type="password" id="password" placeholder="password">
+            <br>
+            <button class="submit">Submit</button>
 </body>
 </html>

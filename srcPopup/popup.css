@@ -1,30 +1,33 @@
 body {
-    background-color: #F3EBF6;
+    background-color: #ebeef6;
+    min-width: 300px; /*max would be 800*/
     font-family: 'Ubuntu', sans-serif;
-}
-
-.main {
-    background-color: #FFFFFF;
-    width: 400px;
-    height: 400px;
-    margin: 7em auto;
-    border-radius: 1.5em;
-    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    margin: 1em;
 }
 
 .sign {
     padding-top: 40px;
-    color: #8C55AA;
+    color: #0065bd;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
 }
 
-.text {
-    color: #8C55AA;
+h1 {
+    color: #0065bd;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text {
+    color: #0065bd;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1em;
 }
 
 .input {
@@ -48,7 +51,7 @@ body {
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #9C27B0, #E040FB);
+    background: #0065bd; /* linear-gradient(to right, #9C27B0, #E040FB); */
     border: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;

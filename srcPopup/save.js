@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let user = items.moodle_key.username
         if (user) {
             document.getElementById('title').innerHTML =
-                'There are values stored for <b>' + user + '</b>. If you want to change enter the new login data:'
+                'There are values stored for <b>' + user + '</b>. If you want to change enter the new login data.'
         }
     }
     })
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log("Error.");
             }
         });
+        location.reload() // reloading so you can see a successful input
     }
 })
 

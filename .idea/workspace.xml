@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d7808e3-5273-43a3-a47d-5b8f2d78e2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IMG/moodleWelcomePage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/shibboleth_login_page_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginCampus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginTUM.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginShibboleth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passReaxys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcOptions/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcPopup/optionLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginShibboleth.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginShibboleth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moodle.js" beforeDir="false" afterPath="$PROJECT_DIR$/passMoodleWelcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save.js" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/save.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcPopup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcPopup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcPopup/save.js" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/save.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +26,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,8 +47,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -79,7 +81,11 @@
       <workItem from="1640277870464" duration="160000" />
       <workItem from="1640278059779" duration="697000" />
       <workItem from="1641578587133" duration="335000" />
-      <workItem from="1641831494954" duration="2914000" />
+      <workItem from="1641831494954" duration="3347000" />
+      <workItem from="1641834873653" duration="203000" />
+      <workItem from="1645206218595" duration="2769000" />
+      <workItem from="1645461978824" duration="2687000" />
+      <workItem from="1645547416965" duration="3985000" />
     </task>
     <servers />
   </component>
@@ -89,15 +95,50 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="7d3ad87a-8c41-49fa-ad9f-cb01a6cb6747">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/version-1" />
+                        <option value="origin/version-a-1" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -108,11 +149,10 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="186" y="81" key="SettingsEditor" timestamp="1640278120886">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1640278120886" />
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7d3ad87a-8c41-49fa-ad9f-cb01a6cb6747" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
 </project>

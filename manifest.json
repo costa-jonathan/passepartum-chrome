@@ -1,7 +1,8 @@
 {
   "name": "Silver Train",
-  "version": "0.1",
+  "version": "0.1.1",
   "manifest_version": 3,
+  "options_page": "./srcOptions/options.html",
   "content_scripts": [
     {
       "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
@@ -13,7 +14,7 @@
     }
   ],
   "action": {
-    "default_popup": ".\\srcPopup\\popup.html",
+    "default_popup": "./srcPopup/popup.html",
     "default_title": "User Input"
   },
   "background": {
