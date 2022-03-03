@@ -1,6 +1,7 @@
 body {
     background-color: #ebeef6;
-    min-width: 300px; /*max would be 800*/
+    min-width: 300px;
+    /*max would be 800*/
     font-family: 'Ubuntu', sans-serif;
     margin: 1em;
 }
@@ -45,13 +46,28 @@ h1 {
     margin-bottom: 5px;
 }
 
-
+.radio {
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
 .submit {
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: #0065bd; /* linear-gradient(to right, #9C27B0, #E040FB); */
+    background: #0065bd;
+    /* linear-gradient(to right, #9C27B0, #E040FB); */
     border: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;

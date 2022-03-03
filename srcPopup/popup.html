@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="text/javascript" src="save.js" charset="UTF-8"></script>
     <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
-        <h1>
-            Hey there,
-        </h1>
-        <div id="title" class="text">
-            Here you can enter your login information for moodle for even <b>more automation</b>.
-        </div>
-        <div id="text" class="text">
-            If you are concerned about the <b>security</b> of your login data please read our
-            <a href="#" id="go-to-options">information</a>.
-            <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script> <!-- has to be loaded here -->
-            In short your passwords are <b>not encrypted</b> but stored <b>only locally</b>.
-            <br>
-            The security is comparable with the chrome/edge password autofill feature.
-        </div>
-            <!-- todo add a "tip: " that randomly presents tips about the thing -->
-            <label for="username"></label><input class="input" type="text" id="username" placeholder="username">
-            <label for="password"></label><input class="input" type="password" id="password" placeholder="password">
-            <br>
-            <button class="submit">Submit</button>
+    <h1>
+        Hey there,
+    </h1>
+    <div id="title" class="text">
+        Here you can enter your login information for moodle for even <b>more automation</b>.
+    </div>
+    <div id="text" class="text">
+        If you are concerned about the <b>security</b> of your login data please read our
+        <a href="#" id="go-to-options">information</a>.
+        <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script>
+        <!-- has to be loaded here -->
+        In short your passwords are <b>not encrypted</b> but stored <b>only locally</b>.
+        <br> The security is comparable with the chrome/edge password autofill feature.
+    </div>
+    <!-- todo add a "tip: " that randomly presents tips about the thing -->
+    <label for="username"></label><input class="input" type="text" id="username" placeholder="username" autocomplete="username">
+    <label for="password"></label><input class="input" type="password" id="password" placeholder="password" autocomplete="current-password">
+    <br>
+    <button class="submit">Submit</button>
+    <input class="radio" type="radio" id="html" name="fav_language" value="ON">   <label class="radio" for="html">ON</label><br>
+    <input class="radio" type="radio" id="html" name="fav_language" value="OFF">   <label class="radio" for="html">OFF</label><br>
+    <button class="submit">Switch automation states</button>
 </body>
+
 </html>
