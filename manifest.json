@@ -9,6 +9,10 @@
         {
             "matches": ["https://login.tum.de/*"],
             "js": ["loginShibboleth.js"]
+        },
+        {
+            "matches": ["https://www.moodle.tum.de/login/index.php"],
+            "js": ["passMoodleBack.js"]
         }
     ],
     "action": {
