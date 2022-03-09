@@ -2,6 +2,7 @@
     "name": "Silver Train",
     "version": "0.1",
     "manifest_version": 3,
+    "options_page": "./srcOptions/options.html",
     "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
