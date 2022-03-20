@@ -19,9 +19,6 @@
         "default_popup": "./srcPopup/popup.html",
         "default_title": "User Input"
     },
-    "background": {
-        "service_worker": "startup.js"
-    },
     "permissions": [
         "storage"
     ],

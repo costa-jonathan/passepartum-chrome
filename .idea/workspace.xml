@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d7808e3-5273-43a3-a47d-5b8f2d78e2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/passReaxys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcOptions/options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcPopup/optionLink.js" afterDir="false" />
+    <list default="true" id="4d7808e3-5273-43a3-a47d-5b8f2d78e2d9" name="Default Changelist" comment=".gitignore">
+      <changelist_data name="costa-jonathan" email="jonathanleonhard.costa@gmail.com" date="1647795409000" />
+      <change afterPath="$PROJECT_DIR$/srcPopup/delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginShibboleth.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginShibboleth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moodle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passMoodleBack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passMoodleWelcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/passMoodleWelcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/srcPopup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcPopup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcPopup/save.js" beforeDir="false" afterPath="$PROJECT_DIR$/srcPopup/save.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +32,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="there-is-disclaimers" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,18 +63,21 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\srcPopup" />
+      <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\icons" />
       <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\popup" />
       <recent name="C:\Users\jonat\OneDrive\Documents\_redirect\coding\js-php-web\silver-train\IMG" />
     </key>
@@ -86,7 +99,23 @@
       <workItem from="1645206218595" duration="2769000" />
       <workItem from="1645461978824" duration="2687000" />
       <workItem from="1645547416965" duration="3985000" />
+      <workItem from="1648020018355" duration="8384000" />
     </task>
+    <task id="LOCAL-00001" summary="General design and design structure changes.&#10;Added an icon.">
+      <created>1648052797002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648052797003</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".gitignore">
+      <created>1648053538302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648053538302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +138,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/version-a-1" />
+                        <option value="version-m-1" />
                       </list>
                     </value>
                   </entry>
@@ -154,5 +183,10 @@
         <entry key="7d3ad87a-8c41-49fa-ad9f-cb01a6cb6747" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="General design and design structure changes.&#10;Added an icon." />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
 </project>

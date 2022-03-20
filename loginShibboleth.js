@@ -6,7 +6,6 @@ window.addEventListener('load', function() {
     // first get stored username and password - if that fails run main which relies on chrome saved passwords
     try { // this try catch block doesn't work yet todo
         chrome.storage.sync.get('moodle_key', function(items) {
-            console.log(document.getElementsByClassName('form-error').length === 0)
             if (!chrome.runtime.error && document.getElementsByClassName('form-error').length === 0) {
                 document.getElementById('username').value = items.moodle_key.username
                 document.getElementById('password').value = items.moodle_key.password
@@ -19,13 +18,3 @@ window.addEventListener('load', function() {
     // wait a bit and then click the login button
     setTimeout(() => { document.getElementById("btnLogin").click() }, 1000);
 })
-
-//use async function to... click links/buttons in sequence
-async function main() {
-
-    // get the documents id
-    const loginOne = document.getElementsByName("TUM LOGIN");
-    await console.log(loginOne);
-    //const loginOne = document.getElementsByName("TUM LOGIN");
-
-}
