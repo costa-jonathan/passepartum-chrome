@@ -1,26 +1,25 @@
 {
-  "name": "Silver Train",
-  "version": "0.1.1",
-  "manifest_version": 3,
-  "options_page": "./srcOptions/options.html",
-  "content_scripts": [
-    {
-      "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
-      "js": ["passMoodleWelcome.js"]
+    "name": "Silver Train",
+    "version": "0.1.1",
+    "manifest_version": 3,
+    "options_page": "./srcOptions/options.html",
+    "content_scripts": [{
+            "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
+            "js": ["passMoodleWelcome.js"]
+        },
+        {
+            "matches": ["https://login.tum.de/*"],
+            "js": ["loginShibboleth.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "./srcPopup/popup.html",
+        "default_title": "User Input"
     },
-    {
-      "matches": ["https://login.tum.de/*"],
-      "js": ["loginShibboleth.js"]
-    }
-  ],
-  "action": {
-    "default_popup": "./srcPopup/popup.html",
-    "default_title": "User Input"
-  },
-  "background": {
-    "service_worker": "startup.js"
-  },
-  "permissions": [
-    "storage"
-  ]
+    "background": {
+        "service_worker": "startup.js"
+    },
+    "permissions": [
+        "storage"
+    ]
 }
