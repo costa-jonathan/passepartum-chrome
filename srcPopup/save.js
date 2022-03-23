@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
         let user = items.moodle_key.username
         if (user) {
             document.getElementById('title').innerHTML =
-                'There are values stored for <b>' + user + '</b>. If you want to change enter the new login data.'
+                'There is login information stored for <b>' + user + '</b>. ' +
+                'If you want to change it simply enter the new login data.'
         }
     }
     })

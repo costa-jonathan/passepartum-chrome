@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.disclaimer-wrapper {
+    border-radius: 25px;
+    background: #0065bd;
+    padding: 40px;
+    margin: auto 15vh;
+}
+
+h1, .text {
+    color: #d5d5d5;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+.text {
+    font-size: 3vh;
+    font-family: 'Georgia', serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cccccc;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.small-text {
+    font-size: 10px;
+}

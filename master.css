@@ -1,0 +1,41 @@
+body {
+    background-color: #ebeef6;
+    min-width: 300px;
+    /*max would be 800*/
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em;
+}
+
+h1 {
+    color: #0065bd;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text {
+    color: #0065bd;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1em;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #0065bd;
+}
+
+/* visited link */
+a:visited {
+    color: #0065bd;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cccccc;
+}
+
