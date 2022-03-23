@@ -29,11 +29,25 @@
     margin-top: 5px;
 }
 
-.submit {
+.save {
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
     background: #0065bd;
+    /* linear-gradient(to right, #9C27B0, #E040FB); */
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+
+.delete {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: #bd0000;
     /* linear-gradient(to right, #9C27B0, #E040FB); */
     border: 0;
     font-family: 'Ubuntu', sans-serif;

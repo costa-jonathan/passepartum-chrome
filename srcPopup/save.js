@@ -5,12 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (user) {
             document.getElementById('title').innerHTML =
                 'There is login information stored for <b>' + user + '</b>. ' +
-                'If you want to change it simply enter the new login data.'
+                'If you want to change it simply enter the new login data.' +
+                ''
         }
     }
     })
 
-    document.querySelector('button').addEventListener('click', onclick, false)
+    document.querySelector('.save').addEventListener('click', onclick, false)
     function onclick () {
         let username = document.getElementById('username').value
         let password = document.getElementById('password').value
