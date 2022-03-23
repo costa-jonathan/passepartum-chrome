@@ -1,25 +1,22 @@
 {
     "name": "Silver Train",
-    "version": "0.1",
+    "version": "0.1.1",
     "manifest_version": 3,
     "options_page": "./srcOptions/options.html",
-    "icons": {
-        "128": "./icons/icons8-schlussel-128.png" },
-    "content_scripts": [{
+  "icons": {
+    "128": "./icons/icons8-schlussel-128.png"
+    },
+  "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
         },
         {
             "matches": ["https://login.tum.de/*"],
             "js": ["loginShibboleth.js"]
-        },
-        {
-            "matches": ["https://www.moodle.tum.de/login/index.php"],
-            "js": ["passMoodleBack.js"]
         }
     ],
     "action": {
-        "default_popup": ".\\srcPopup\\popup.html",
+        "default_popup": "./srcPopup/popup.html",
         "default_title": "User Input"
     },
     "background": {
@@ -28,14 +25,14 @@
     "permissions": [
         "storage"
     ],
-    "commands": {
-        "_execute_action": {
-            "suggested_key": {
-                "default": "Ctrl+Shift+L",
-                "mac": "MacCtrl+Shift+L"
-            },
-            "description": "My first command",
-            "global": true
-        }
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "MacCtrl+Shift+L"
+      },
+      "description": "My first command",
+      "global": true
     }
+  }
 }
