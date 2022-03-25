@@ -23,6 +23,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+.small-text {
+    font-size: 10px;
+}
+
 
 /* unvisited link */
 a:link {

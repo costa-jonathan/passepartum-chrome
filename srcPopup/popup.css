@@ -36,7 +36,6 @@
     background: #0065bd;
     /* linear-gradient(to right, #9C27B0, #E040FB); */
     border: 0;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     padding: 5px 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
@@ -50,7 +49,19 @@
     background: #bd0000;
     /* linear-gradient(to right, #9C27B0, #E040FB); */
     border: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.feedback {
+    cursor: pointer;
+    border: none;
+    border-radius: 5em;
+    color: #fff;
+    background: #b6b6b6;
+    /* linear-gradient(to right, #9C27B0, #E040FB); */
+    border: 0;
     font-size: 13px;
     padding: 5px 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
