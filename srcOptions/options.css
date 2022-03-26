@@ -1,10 +1,11 @@
+/* dynamic design but only for landscape desktop view */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    background: #d5d5d5;;
 }
-
 
 .disclaimer-wrapper {
     border-radius: 25px;
@@ -21,34 +22,23 @@ h1 {
     font-size: 4vh;
 }
 
+/* better readability for the long text */
 .text {
     font-size: 3vh;
     font-family: 'Georgia', serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased !important;
-    -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
     letter-spacing: .03em;
 }
 
-/* unvisited link */
-a:link {
-    color: white;
-}
-
-/* visited link */
-a:visited {
+/* visited, selected & unvisited link */
+a:link, a:visited, a:active {
     color: white;
 }
 
 /* mouse over link */
 a:hover {
-    color: #cccccc;
+    color: #c6ddff;
 }
-
-/* selected link */
-a:active {
-    color: white;
-}
-
 

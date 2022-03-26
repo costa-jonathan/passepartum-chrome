@@ -9,67 +9,28 @@
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.02);
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 5px;
+    width: 300px;
 }
 
-.radio {
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    border-radius: 20px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 5px;
-    margin-top: 5px;
+button {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    border: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
 .save {
-    cursor: pointer;
-    border-radius: 5em;
-    color: #fff;
     background: #0065bd;
-    /* linear-gradient(to right, #9C27B0, #E040FB); */
-    border: 0;
-    font-size: 13px;
-    padding: 5px 10px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
-
 .delete {
-    cursor: pointer;
-    border-radius: 5em;
-    color: #fff;
     background: #bd0000;
-    /* linear-gradient(to right, #9C27B0, #E040FB); */
-    border: 0;
-    font-size: 13px;
-    padding: 5px 10px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
 .feedback {
-    cursor: pointer;
-    border: none;
-    border-radius: 5em;
-    color: #fff;
     background: #b6b6b6;
-    /* linear-gradient(to right, #9C27B0, #E040FB); */
-    border: 0;
-    font-size: 13px;
-    padding: 5px 10px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
-
-
-/*a {
-    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: #E1BEE7;
-    text-decoration: none
-}*/

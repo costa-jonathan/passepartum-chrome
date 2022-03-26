@@ -4,7 +4,7 @@ document.write('\
 <div class="text"> \
 <b>Storage</b>\
 <br>\
-Your login data is stored <b>locally</b> and <b>unencrypted</b> somewhere in the files \
+Your login data is stored <b>locally</b> and <b><a href="https://developer.chrome.com/docs/extensions/reference/storage/" target="_blank">unencrypted</a></b> somewhere in the files \
 for this Chrome extension. This means anybody with access to this computers local storage can potentially \
 access your password, even if that access is a remote one (like Team Viewer or potential spyware). \
 It is not synchronized via cloud storage, which means it cannot be scooped \

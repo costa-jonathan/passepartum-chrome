@@ -1,6 +1,5 @@
-// just passes the moodle welcome page
-try {
+try { // passes the moodle.tum.de/login/index page if already logged in
     document.getElementsByClassName("icon-arrow-right")[0].click()
-} catch (error) {
+} catch (e) { // passes the moodle.tum.de welcome page
     document.getElementsByClassName('btn btn-secondary')[0].click();
 }

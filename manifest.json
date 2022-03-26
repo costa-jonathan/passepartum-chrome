@@ -1,12 +1,12 @@
 {
-    "name": "Silver Train",
-    "version": "0.1.1",
+    "name": "Passepartum",
+    "version": "1.0.0",
     "manifest_version": 3,
     "options_page": "./srcOptions/options.html",
-  "icons": {
-    "128": "./icons/icons8-schlussel-128.png"
+    "icons": {
+      "128": "./icons/icons8-schlussel-128.png"
     },
-  "content_scripts": [{
+    "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
         },
@@ -21,15 +21,5 @@
     },
     "permissions": [
         "storage"
-    ],
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+L",
-        "mac": "MacCtrl+Shift+L"
-      },
-      "description": "My first command",
-      "global": true
-    }
-  }
+    ]
 }
