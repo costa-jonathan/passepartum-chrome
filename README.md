@@ -5,4 +5,4 @@ Automated TUM login - Version 1.0.0
 for extension related questions: passepartum@gmail.com
 
 Jonathan Costa: jcosta.studies@gmail.com
-Antony Rubombora:
+Antony Rubombora: tonyrubombora@gmail.com
