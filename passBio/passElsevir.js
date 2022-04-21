@@ -1,0 +1,1 @@
+document.getElementById('bdd-elsSecondaryBtn').click()

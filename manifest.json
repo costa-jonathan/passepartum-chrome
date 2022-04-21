@@ -13,6 +13,17 @@
         {
             "matches": ["https://login.tum.de/*"],
             "js": ["loginShibboleth.js"]
+        },
+        {
+            "run_at": "document_end",
+            "matches": ["https://www.reaxys.com/*"],
+            "include_globs": ["*#/login"],
+            "js": ["./passBio/passReaxys.js"]
+        },
+        {
+            "matches": ["https://id.elsevier.com/*"],
+            "run_at": "document_end",
+            "js": ["./passBio/passElsevir.js"]
         }
     ],
     "action": {
