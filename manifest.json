@@ -21,9 +21,7 @@
             "js": ["loginShibboleth.js"]
         },
         {
-            "run_at": "document_end",
             "matches": ["https://www.reaxys.com/*"],
-            "include_globs": ["*#/login"],
             "js": ["./passBio/passReaxys.js"]
         },
         {
