@@ -14,7 +14,16 @@ function pass() {
         document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown > div > a > span').click()
     }, (3 * 1000));
     setTimeout(function() {
-        document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child(15) > a').click()
+        let i = 10 // just for speed reasons start at the 11th
+        while (true) {
+            let university = document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child('+i+') > a > span').textContent
+            if (university === 'German Higher Education & Research (DFN-AAI)') {
+                break
+            } else {
+                i ++
+            }
+        }
+        document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child('+i+') > a').click()
     }, (3.5 * 1000));
     setTimeout(function() {
         try {
@@ -25,7 +34,16 @@ function pass() {
     }, (5 * 1000));
     // click on second dropdown & select TUM
     setTimeout(function() {
-        document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child(28) > a').click()
+        let i = 10 // just for speed reasons start at the 11th
+        while (true) {
+            let university = document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child('+i+') > a > span').textContent
+            if (university === 'Technische Universität München (TUM)') {
+                break
+            } else {
+                i ++
+            }
+        }
+        document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.els-select-wrapper.dropdown.open > div > ul > li:nth-child('+i+') > a').click()
     }, (5.5 * 1000));
     setTimeout(function() {
         document.querySelector('#main-content > div > div > div > div.login-page-form-wrapper > div.login-page-form-actions > div > button').click()
