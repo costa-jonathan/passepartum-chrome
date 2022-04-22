@@ -4,8 +4,14 @@
     "manifest_version": 3,
     "options_page": "./srcOptions/options.html",
     "icons": {
-      "128": "./icons/icons8-schlussel-128.png"
+      "128": "icons/icons8-schlussel-128.png"
     },
+    "web_accessible_resources": [
+        {
+            "resources": [ "icons/icons8-schlussel-128.png" ],
+            "matches": [ "<all_urls>" ]
+        }
+    ],
     "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
@@ -24,6 +30,11 @@
             "matches": ["https://id.elsevier.com/*"],
             "run_at": "document_end",
             "js": ["./passBio/passElsevir.js"]
+        },
+        {
+            "matches": ["https://www.science.org/*"],
+            "run_at": "document_end",
+            "js": ["./passBio/passScience.js"]
         }
     ],
     "action": {
