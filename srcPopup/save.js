@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    chrome.storage.sync.get('moodle_key', function(items){
+    chrome.storage.local.get('moodle_key', function(items){
     if(!chrome.runtime.error){
         let user = items.moodle_key.username
         if (user) {
