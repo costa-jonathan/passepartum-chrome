@@ -8,7 +8,7 @@
     },
     "web_accessible_resources": [
         {
-            "resources": [ "icons/icons8-schlussel-128.png" ],
+            "resources": [ "icons/icons8-schlussel-128.png", "icons/icons8-key-blue.svg", "icons/icons8-key-white.svg" ],
             "matches": [ "<all_urls>" ]
         }
     ],
@@ -33,6 +33,10 @@
             "matches": ["https://www.science.org/*"],
             "run_at": "document_end",
             "js": ["./passBio/passScience.js"]
+        },
+        {
+            "matches": ["https://www.nature.com/*"],
+            "js": ["./passBio/passNature.js"]
         }
     ],
     "action": {
