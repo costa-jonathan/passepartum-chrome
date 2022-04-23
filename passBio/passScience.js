@@ -18,7 +18,4 @@ if ((document.querySelector("#mainNavbar > div > div > div.col.justify-content-e
             "<img id='logo' alt='passepartum-logo' width='32'></a></div>");
 }
 
-document.getElementById('logo').src = chrome.runtime.getURL("icons/icons8-schlussel-128.png")
-
-
-'/as/yrJ4U/resume/as/authorization.ping?client_id=SDFE-v3&state=retryCounter%3D0%26csrfToken%3D7b65aa65-769e-4e86-8127-02a7b07d2f73%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3Dhttps%253A%252F%252Fwww.sciencedirect.com%252Fscience%252Farticle%252Fpii%252FS0022214302331263%26prompt%3Dlogin%26cid%3Datp-1fac293b-d271-4bd0-966a-43f62b4ebef1'
+document.getElementById('logo').src = chrome.runtime.getURL("icons/icons8-key-blue.svg")

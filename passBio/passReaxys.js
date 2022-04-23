@@ -2,7 +2,7 @@ document.querySelector('#site-navigation > ul')
     .insertAdjacentHTML('beforeend',
         '<li class="new-main-site-navigation-item"><a id="passepartum" ' +
         'class="new-menu-link"><img style="margin-top: -13px;" id=\'logo\' alt=\'passepartum-logo\' width=\'32\'></a></li>')
-document.getElementById('logo').src = chrome.runtime.getURL("icons/icons8-schlussel-128.png")
+document.getElementById('logo').src = chrome.runtime.getURL("icons/icons8-key-blue.svg")
 
 
 document.getElementById("passepartum").addEventListener("click", pass);
