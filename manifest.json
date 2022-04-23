@@ -41,6 +41,10 @@
         {
             "matches": ["https://latex.tum.de/ldap/login"],
             "js": ["passTUMLaTeX.js"]
+        },
+        {
+            "matches": ["https://pubs.rsc.org/*"],
+            "js": ["./passBio/passRSC.js"]
         }
     ],
     "action": {

@@ -1,4 +1,4 @@
-let url = "https://sp.nature.com/saml/login?idp=https://tumidp.lrz.de/idp/shibboleth&targetUrl=" + location.href;
+const url = "https://sp.nature.com/saml/login?idp=https://tumidp.lrz.de/idp/shibboleth&targetUrl=" + location.href;
 
 
 document.querySelector("#entitlement-box-right-column > div.js-access-button")
