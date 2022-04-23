@@ -1,8 +1,6 @@
 // this code runs when on https://login.tum.de/* which is the Shibboleth login for tum
 
 window.addEventListener('load', function() {
-    document.getElementById("donotcache-dummy-label").click() // click the "remember me" radio
-
     // first get stored username and password - if that fails run main which relies on chrome saved passwords
     try { // this try catch block doesn't work yet todo
         chrome.storage.local.get('moodle_key', function(items) {
