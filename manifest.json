@@ -5,8 +5,14 @@
     "description": "The extension facilitates (automates) the login process of the moodle page of the Technical University of Munich.",
     "options_page": "./srcOptions/options.html",
     "icons": {
-      "128": "./icons/icons8-schlussel-128.png"
+      "128": "icons/icons8-schlussel-128.png"
     },
+    "web_accessible_resources": [
+        {
+            "resources": [ "icons/icons8-key-blue.svg", "icons/icons8-key-white.svg" ],
+            "matches": [ "<all_urls>" ]
+        }
+    ],
     "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
@@ -14,6 +20,36 @@
         {
             "matches": ["https://login.tum.de/*"],
             "js": ["loginShibboleth.js"]
+        },
+        {
+            "matches": ["https://www.reaxys.com/*"],
+            "js": ["./passBio/passReaxys.js"]
+        },
+        {
+            "matches": ["https://id.elsevier.com/*"],
+            "run_at": "document_end",
+            "js": ["./passBio/passElsevir.js"]
+        },
+        {
+            "matches": ["https://www.science.org/*"],
+            "run_at": "document_end",
+            "js": ["./passBio/passScience.js"]
+        },
+        {
+            "matches": ["https://www.nature.com/*"],
+            "js": ["./passBio/passNature.js"]
+        },
+        {
+            "matches": ["https://latex.tum.de/ldap/login"],
+            "js": ["passTUMLaTeX.js"]
+        },
+        {
+            "matches": ["https://pubs.rsc.org/*"],
+            "js": ["./passBio/passRSC.js"]
+        },
+        {
+            "matches": ["https://pubs.acs.org/*"],
+            "js": ["./passBio/passACS.js"]
         }
     ],
     "action": {

@@ -7,12 +7,13 @@ window.addEventListener('load', function() {
             if (!chrome.runtime.error && document.getElementsByClassName('form-error').length === 0) {
                 document.getElementById('username').value = items.moodle_key.username
                 document.getElementById('password').value = items.moodle_key.password
+                // wait a bit and then click the login button
+                setTimeout(() => { document.getElementById("btnLogin").click() }, 500);
             }
         });
     } catch (err) {
         main().then() // async function but don't need then I guess
     }
 
-    // wait a bit and then click the login button
-    setTimeout(() => { document.getElementById("btnLogin").click() }, 1000);
+
 })
