@@ -45,6 +45,10 @@
         {
             "matches": ["https://pubs.rsc.org/*"],
             "js": ["./passBio/passRSC.js"]
+        },
+        {
+            "matches": ["https://pubs.acs.org/*"],
+            "js": ["./passBio/passACS.js"]
         }
     ],
     "action": {
