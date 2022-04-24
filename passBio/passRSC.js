@@ -4,7 +4,7 @@ setTimeout(function() {
     document.querySelector("#DownloadOption > div")
         .insertAdjacentHTML('beforeend', "<a href=\"" + url + "\" class=\"btn btn--cta btn--primary btn--block btn--stack \" style='height: 80px'>\n" +
             "                Passepartum\n" +
-            "<img id='logo' alt='passepartum-logo' width='60' height='60' style=\"margin-top: -32px;margin-left: 290px\">" +
+            "<img id='logo' alt='passepartum-logo' width='60' height='60' style=\"margin-top: -32px;margin-left: 89%\">" +
             "                <span class=\"btn-info\" style='margin-top: -35px'>Acces via TUM</span>\n" +
             "            </a>");
 
