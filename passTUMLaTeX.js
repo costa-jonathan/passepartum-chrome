@@ -1,4 +1,4 @@
-
+// very similar to the loginShibboleth.js login process
 
 window.addEventListener('load', function() {
     // first get stored username and password - if that fails run main which relies on chrome saved passwords
@@ -13,17 +13,4 @@ window.addEventListener('load', function() {
     } catch (err) {
         main().then() // async function but don't need then I guess
     }
-
 })
-
-
-
-
-
-
-
-
-
-
-
-
