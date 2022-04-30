@@ -2,7 +2,7 @@
     "name": "passepartum",
     "version": "1.1.0",
     "manifest_version": 3,
-    "description": "The extension facilitates (automates) the login process for the services of Technical University of Munich.",
+    "description": "The extension facilitates (automates) the login process for the services of Technical University of Munich (TUM; eg. moodle).",
     "options_page": "./srcOptions/options.html",
     "icons": {
       "128": "icons/icons8-schlussel-128.png"
