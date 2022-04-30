@@ -49,6 +49,10 @@
         {
             "matches": ["https://epubs.siam.org/*"],
             "js": ["./passScience/passSiam.js"]
+        },
+        {
+            "matches": ["https://www.springer.com/*", "https://link.springer.com/*"],
+            "js": ["./passScience/passSpringer.js"]
         }
     ],
     "action": {
