@@ -22,29 +22,29 @@
             "js": ["loginShibboleth.js"]
         },
         {
+            "matches": ["https://latex.tum.de/ldap/login"],
+            "js": ["./passTools/passTUMLaTeX.js"]
+        },
+        {
             "matches": ["https://www.reaxys.com/*"],
-            "js": ["./passBio/passReaxys.js"]
+            "js": ["./passTools/passReaxys.js"]
         },
         {
             "matches": ["https://www.science.org/*"],
             "run_at": "document_end",
-            "js": ["./passBio/passScience.js"]
+            "js": ["./passScience/passScience.js"]
         },
         {
             "matches": ["https://www.nature.com/*"],
-            "js": ["./passBio/passNature.js"]
-        },
-        {
-            "matches": ["https://latex.tum.de/ldap/login"],
-            "js": ["passTUMLaTeX.js"]
+            "js": ["./passScience/passNature.js"]
         },
         {
             "matches": ["https://pubs.rsc.org/*"],
-            "js": ["./passBio/passRSC.js"]
+            "js": ["./passScience/passRSC.js"]
         },
         {
             "matches": ["https://pubs.acs.org/*"],
-            "js": ["./passBio/passACS.js"]
+            "js": ["./passScience/passACS.js"]
         }
     ],
     "action": {
