@@ -61,6 +61,10 @@
         {
             "matches": ["https://pubsonline.informs.org/*"],
             "js": ["./passScience/passPubsOnLine.js"]
+        },
+        {
+            "matches": ["https://www.annualreviews.org/*"],
+            "js": ["./passScience/passAnualreviews.js"]
         }
     ],
     "action": {
