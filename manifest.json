@@ -22,6 +22,10 @@
             "js": ["loginShibboleth.js"]
         },
         {
+            "matches": ["https://mail.tum.de/owa/auth/*"],
+            "js": ["./passTools/passTUMmail.js"]
+        },
+        {
             "matches": ["https://latex.tum.de/ldap/login"],
             "js": ["./passTools/passTUMLaTeX.js"]
         },

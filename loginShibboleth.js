@@ -14,6 +14,4 @@ window.addEventListener('load', function() {
     } catch (err) {
         main().then() // async function but don't need then I guess
     }
-
-
 })
