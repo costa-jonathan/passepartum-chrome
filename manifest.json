@@ -53,6 +53,10 @@
         {
             "matches": ["https://www.springer.com/*", "https://link.springer.com/*"],
             "js": ["./passScience/passSpringer.js"]
+        },
+        {
+            "matches": ["https://pubsonline.informs.org/*"],
+            "js": ["./passScience/passPubsOnLine.js"]
         }
     ],
     "action": {
