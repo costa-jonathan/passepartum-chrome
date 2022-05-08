@@ -65,6 +65,10 @@
         {
             "matches": ["https://www.annualreviews.org/*"],
             "js": ["./passScience/passAnualreviews.js"]
+        },
+        {
+            "matches": ["https://onlinelibrary.wiley.com/*"],
+            "js": ["./passScience/passWiley.js"]
         }
     ],
     "action": {
