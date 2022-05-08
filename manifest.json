@@ -5,14 +5,12 @@
     "description": "The extension facilitates (automates) the login process for the services of Technical University of Munich (TUM; eg. moodle, mail LaTeX).",
     "options_page": "./srcOptions/options.html",
     "icons": {
-      "128": "icons/icons8-schlussel-128.png"
+        "128": "icons/icons8-schlussel-128.png"
     },
-    "web_accessible_resources": [
-        {
-            "resources": [ "icons/icons8-key-blue.svg", "icons/icons8-key-white.svg" ],
-            "matches": [ "<all_urls>" ]
-        }
-    ],
+    "web_accessible_resources": [{
+        "resources": ["icons/icons8-key-blue.svg", "icons/icons8-key-white.svg"],
+        "matches": ["<all_urls>"]
+    }],
     "content_scripts": [{
             "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
