@@ -1,8 +1,8 @@
-// very similar to the loginShibboleth.js login process
+//When http://mail.tum.de* loads, enter details & click the sign in button
 
 window.addEventListener('load', function() {
     // first get stored username and password - if that fails run main which relies on chrome saved passwords
-    try {
+    try { // run try catch to get stored values & fill into browser
         chrome.storage.local.get('moodle_key', function(items) {
             if (!chrome.runtime.error && !document.getElementById('signInErrorDiv')) {
                 document.getElementById('username').value = items.moodle_key.username
@@ -11,6 +11,6 @@ window.addEventListener('load', function() {
             }
         });
     } catch (err) {
-        main().then() // async function but don't need then I guess
+        main().then() //main() non-existant bc clicking without saved fill-in not possible yet
     }
 })
