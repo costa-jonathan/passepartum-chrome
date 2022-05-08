@@ -1,6 +1,6 @@
 {
     "name": "passepartum",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "manifest_version": 3,
     "description": "The extension facilitates (automates) the login process for the services of Technical University of Munich (TUM; eg. moodle, mail LaTeX).",
     "options_page": "./srcOptions/options.html",
