@@ -1,5 +1,5 @@
 # Passepartum
-Automated TUM login - Version 1.0.0
+Automated TUM login - Version 1.2.0
 
 ## Contact
 for extension related questions: passepartum@gmail.com
