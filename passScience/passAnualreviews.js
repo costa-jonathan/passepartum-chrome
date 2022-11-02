@@ -3,10 +3,10 @@ const url = "http://iam.atypon.com/action/ssostart?idp=https%3A%2F%2Ftumidp.lrz.
     + "&federationId=http%3A%2F%2Fukfederation.org.uk&targetSP=https%3A%2F%2Fwww.annualreviews.org&requesterId=https%3A%2F%2Fwww.annualreviews.org%2Fshibboleth"
 
 
+let broughtToYouByTum = document.querySelector("#pb-page-content > div > div:nth-child(1) > div > div > div > div > div:nth-child(1) > header > section.ar-desktop-header > div:nth-child(3) > div.logo-container > div.access-provided > div > div > div > div > span")
+if (!document.body.contains(broughtToYouByTum)) {
+    injectButton(url)
+}
 
-// inject login button with constructed url matching the login options of the page
-document.querySelector("#main-content > div > div > section.ar-content-left-col > article > div.article-info > div:nth-child(2) > div > a.btn.icon-metrics")
-    .insertAdjacentHTML('afterend', "<a href=\""+url+"\" class=\"btn icon-key\" style=\"margin-left:3px;\">" +
-        "                                Passepartum" +
-        "                            </a>"
-    )
+// tested with
+// nothing really because everything open access?

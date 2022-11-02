@@ -34,39 +34,39 @@
         {
             "matches": ["https://www.science.org/*"],
             "run_at": "document_end",
-            "js": ["./passScience/passScience.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passScience.js"]
         },
         {
             "matches": ["https://www.nature.com/*"],
-            "js": ["./passScience/passNature.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passNature.js"]
         },
         {
             "matches": ["https://pubs.rsc.org/*"],
-            "js": ["./passScience/passRSC.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passRSC.js"]
         },
         {
             "matches": ["https://pubs.acs.org/*"],
-            "js": ["./passScience/passACS.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passACS.js"]
         },
         {
             "matches": ["https://epubs.siam.org/*"],
-            "js": ["./passScience/passSiam.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passSiam.js"]
         },
         {
             "matches": ["https://www.springer.com/*", "https://link.springer.com/*"],
-            "js": ["./passScience/passSpringer.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passSpringer.js"]
         },
         {
             "matches": ["https://pubsonline.informs.org/*"],
-            "js": ["./passScience/passPubsOnLine.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passPubsOnLine.js"]
         },
         {
             "matches": ["https://www.annualreviews.org/*"],
-            "js": ["./passScience/passAnualreviews.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passAnualreviews.js"]
         },
         {
             "matches": ["https://onlinelibrary.wiley.com/*"],
-            "js": ["./passScience/passWiley.js"]
+            "js": ["./passScience/injectButton.js", "./passScience/passWiley.js"]
         }
     ],
     "action": {
