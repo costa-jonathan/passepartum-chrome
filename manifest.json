@@ -12,8 +12,12 @@
         "matches": ["<all_urls>"]
     }],
     "content_scripts": [{
-            "matches": ["https://www.moodle.tum.de/login/index.php", "https://www.moodle.tum.de/"],
+            "matches": ["https://www.moodle.tum.de/"],
             "js": ["passMoodleWelcome.js"]
+        },
+        {
+            "matches": ["https://www.moodle.tum.de/login/index.php"],
+            "js": ["passMoodleRelogin.js"]
         },
         {
             "matches": ["https://login.tum.de/*"],
