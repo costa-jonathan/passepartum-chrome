@@ -13,7 +13,7 @@
     width: 300px;
 }
 
-button {
+.button {
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
@@ -21,6 +21,10 @@ button {
     font-size: 13px;
     padding: 5px 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.button :hover {
+    background: #c6c6c4
 }
 
 .save {
@@ -33,4 +37,8 @@ button {
 
 .feedback {
     background: #b6b6b6;
+}
+
+.game {
+    background: #FFFF00;
 }

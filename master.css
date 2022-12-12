@@ -1,6 +1,7 @@
 body {
     background-color: #ebeef6;
-    min-width: 300px; /* max would be 800 */
+    min-width: 300px;
+    /* max would be 800 */
     font-family: 'Helvetica', sans-serif;
     color: #0065bd;
     text-align: justify;
@@ -21,13 +22,17 @@ h1 {
     font-size: 10px;
 }
 
+
 /* visited & unvisited link */
-a:link, a:visited {
+
+a:link,
+a:visited {
     color: #0065bd;
 }
 
-/* mouse over link */
-a:hover {
-    color: #6da7e3;
-}
 
+/* mouse over link */
+
+a:hover {
+    background: #c8c8c8;
+}
