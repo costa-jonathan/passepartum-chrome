@@ -7,33 +7,39 @@
     <script type="text/javascript" src="save.js" charset="UTF-8"></script>
     <script type="text/javascript" src="delete.js" charset="UTF-8"></script>
     <script type="text/javascript" src="feedback.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="quickLogin.js" charset="UTF-8"></script>
     <link rel="stylesheet" href="../master.css">
     <link rel="stylesheet" href="popup.css">
 </head>
 
-<body id="bod">
+<body id="body">
     <h1>
         Hey there,
     </h1>
     <div id="title" class="text">
-        Here you can enter your login information for moodle for even <b>more automation</b>.
+        You can enter your moodle login for even <b>more automation</b>.
     </div>
+    <div id="loginFields">
+        <label for="username"></label>
+        <input class="input" type="text" id="username" placeholder="username" autocomplete="username">
+        <label for="password"></label>
+        <input class="input" type="password" id="password" placeholder="password" autocomplete="current-password">
+    </div>
+    <div class="button-wrapper" style="flex-flow: column">
+        <button class="save" id="saveButton">Save</button>
+        <button class="delete hide" id="deleteButton">Delete Stored</button>
+    </div>
+        <br>
     <div id="text" class="text">
-        If you are concerned about the <b>security</b> of your login data please read our
-        <a href="#" id="go-to-options">information</a>.
-        <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script>
-        <!-- has to be loaded here -->
-        TL;DR: your TUM login is <b>not encrypted</b> but stored <b>only locally</b>.
-        <br> The security is comparable with the chrome/edge password autofill feature.
+        <a href="#" id="go-to-options">detailed password security information</a><br><br>
+        <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script><!-- has to be loaded here -->
+        In short: your TUM login is <b>not encrypted</b> but stored <b>only locally</b>. Our security is comparable with the chrome/edge password autofill.
     </div>
-    <label for="username"></label>
-    <input class="input" type="text" id="username" placeholder="username" autocomplete="username">
-    <label for="password"></label>
-    <input class="input" type="password" id="password" placeholder="password" autocomplete="current-password">
     <br>
-    <button class="save">Save</button>
-    <button class="delete">Delete Stored</button>
-    <button class="feedback">Give Feedback</button>
+    <div class="button-wrapper">
+        <button id="requestPage">Request quick-login for this website</button>
+        <button class="feedback">Feedback</button>
+    </div>
 </body>
 
 </html>

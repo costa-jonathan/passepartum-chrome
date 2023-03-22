@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     'There is login information stored for <b>' + user + '</b>. ' +
                     'If you want to change it simply enter the new login data.' +
                     ''
+                document.getElementById('loginFields').innerHTML = ''
+                document.getElementById('saveButton').classList.add('hide')
+                document.getElementById('deleteButton').classList.remove('hide')
             }
         }
     })

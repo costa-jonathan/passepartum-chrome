@@ -1,7 +1,7 @@
 .input {
     color: rgb(38, 50, 56);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
     background: rgba(136, 126, 126, 0.04);
     border-radius: 20px;
@@ -9,13 +9,21 @@
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.02);
     text-align: center;
-    margin-bottom: 5px;
-    width: 300px;
+    margin-bottom: 6px;
+    width: 80%;
+    height: 30px;
+    align-self: center;
 }
+
+#loginFields {
+    display: flex;
+    flex-flow: column;
+}
+
 
 button {
     cursor: pointer;
-    border-radius: 5em;
+    border-radius: 1em;
     color: #fff;
     border: 0;
     font-size: 13px;
@@ -23,14 +31,35 @@ button {
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
+.button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
 .save {
     background: #0065bd;
+    width: 60%;
+    align-self: center;
 }
 
 .delete {
     background: #bd0000;
+    width: 60%;
+    align-self: center;
 }
 
 .feedback {
     background: #b6b6b6;
+    flex-grow: 1;
+}
+
+#requestPage {
+    background: #b6b6b6;
+    flex-grow: 5;
+}
+
+.hide {
+    display: none
 }

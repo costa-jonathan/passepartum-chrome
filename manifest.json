@@ -78,6 +78,7 @@
         "default_title": "User Input"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
     ]
 }
