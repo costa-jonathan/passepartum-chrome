@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(username, password)
         chrome.storage.local.set({ 'moodle_key': { "username": username, "password": password } }, function() {
             if (chrome.runtime.error) {
-                console.error("An error with local storage was found. If this presists please contact us.");
+                window.alert("An error with local storage was found. If this presists please contact us.");
             }
         });
         location.reload() // reloading so you can see a successful input
