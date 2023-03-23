@@ -28,3 +28,21 @@ document.addEventListener('DOMContentLoaded', function() {
         location.reload() // reloading so you can see a successful input
     }
 })
+
+//drop down button for information
+
+var dropdownBtn = document.getElementById("dropdown-btn");
+var textDiv = document.getElementById("text");
+
+textDiv.style.display = "none";
+dropdownBtn.innerHTML = "Show more";
+
+dropdownBtn.addEventListener("click", function() {
+    if (textDiv.style.display === "none") {
+        textDiv.style.display = "block";
+        dropdownBtn.innerHTML = "Show less";
+    } else {
+        textDiv.style.display = "none";
+        dropdownBtn.innerHTML = "Show more";
+    }
+});
