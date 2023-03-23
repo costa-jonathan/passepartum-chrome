@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
             let user = items.moodle_key.username
             if (user) {
                 document.getElementById('title').innerHTML =
-                    'There is login information stored for <b>' + user + '</b>. ' +
-                    'If you want to change it simply enter the new login data.' +
+                    '<b>' + user + '</b> :) ' +
+                    '' +
                     ''
                 document.getElementById('loginFields').innerHTML = ''
                 document.getElementById('saveButton').classList.add('hide')
