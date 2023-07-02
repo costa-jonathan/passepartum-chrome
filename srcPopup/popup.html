@@ -4,13 +4,6 @@
     <meta charset="UTF-8" />
     <title>Document</title>
 
-    <!-- <script type="text/javascript" src="save.js" charset="UTF-8"></script>
-    <script type="text/javascript" src="delete.js" charset="UTF-8"></script>
-    <script type="text/javascript" src="feedback.js" charset="UTF-8"></script>
-    <script type="text/javascript" src="quickLogin.js" charset="UTF-8"></script>
-    <link rel="stylesheet" href="../master.css">
-    <link rel="stylesheet" href="popup.css"> -->
-
     <script src="save.js" defer></script>
     <script src="delete.js" defer></script>
     <script src="feedback.js" defer></script>
@@ -19,40 +12,17 @@
     <link rel="stylesheet" href="../master.css" />
     <link rel="stylesheet" href="popup.css" />
   </head>
-
-  <!-- <body id="body"> -->
-
   <body>
     <h1>Hey there,</h1>
-    <!-- <div id="title" class="text"> -->
     <div class="text">
-      Enter your login for <b>more autonomous integration (ai)</b>.
+      Enter your login for <b>more autonomous integration</b>.
     </div>
 
-    <!-- <div id="loginFields">
+    <div id="loginFields">
         <label for="username"></label>
         <input class="input" type="text" id="username" placeholder="username" autocomplete="username">
         <label for="password"></label>
         <input class="input" type="password" id="password" placeholder="password" autocomplete="current-password">
-    </div> -->
-
-    <div id="loginFields">
-      <label for="username">Username</label>
-      <input
-        class="input"
-        type="text"
-        id="username"
-        placeholder="Username"
-        autocomplete="username"
-      />
-      <label for="password">Password</label>
-      <input
-        class="input"
-        type="password"
-        id="password"
-        placeholder="Password"
-        autocomplete="current-password"
-      />
     </div>
 
     <div class="button-wrapper" style="flex-flow: column">
@@ -61,15 +31,10 @@
     </div>
     <br />
     <button id="dropdown-btn">Show more</button>
-    <!-- <div id="text" class="text">
-        <a href="#" id="go-to-options">Please read before accessing.</a> -->
     <div class="text">
       <a href="#" id="go-to-options">Please read before accessing.</a
       ><br /><br />
-      <!-- <script type="text/javascript" src="optionLink.js" charset="UTF-8"></script> -->
-      <!-- has to be loaded here -->
-      Your TUM login is stored <b>locally</b>. Our security uses SHA-256
-      encrytion.
+      Your TUM login is stored only <b>locally</b> but unencrypted.
     </div>
     <br />
     <div class="button-wrapper">
@@ -80,11 +45,3 @@
     </div>
   </body>
 </html>
-
-<!-- Improvements made:
-
-Removed the charset="UTF-8" attribute from the script tags as it is unnecessary.
-Added the defer attribute to the script tags to ensure scripts are executed after the HTML is parsed.
-Changed the label text for the username and password fields to be more descriptive.
-Removed the unnecessary id="body" attribute from the body tag.
-Adjusted the formatting and indentation for better readability. -->
