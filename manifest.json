@@ -79,6 +79,7 @@
     },
     "permissions": [
         "storage",
-        "tabs"
+        "tabs",
+        "background"
     ]
 }
