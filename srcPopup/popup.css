@@ -63,3 +63,13 @@ button {
 .hide {
     display: none
 }
+
+/* Specific styling for the Play Pacman button */
+.green-button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

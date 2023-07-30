@@ -75,10 +75,16 @@
     ],
     "action": {
         "default_popup": "./srcPopup/popup.html",
-        "default_title": "User Input"
+        "default_title": "User Input",
+        "default_icon": {
+            "16": "icons/pacman-icon.png",
+            "48": "icons/pacman-icon.png",
+            "128": "icons/pacman-icon.png"
+        }
     },
     "permissions": [
         "storage",
         "tabs"
+
     ]
 }
