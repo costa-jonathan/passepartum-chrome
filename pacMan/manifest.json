@@ -1,0 +1,22 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "128": "app/style/graphics/logo128.png",
+         "16": "app/style/graphics/logo16.png",
+         "48": "app/style/graphics/logo48.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Pacman"
+   },
+   "description": "a pacman popup for chrome!",
+   "icons": {
+      "128": "app/style/graphics/logo128.png",
+      "16": "app/style/graphics/logo16.png",
+      "48": "app/style/graphics/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhIMVvc5dVyKryY6+9SPQ4ZcRgAMl8GtVsf3BC+V78MXFygRYOCQWZT8bbf+OMmbBIDDS0vF9XoQ4Iu2yLBez7qBsmCieWzpEQf/JWD1KOOt4+O/9j9YibNmdu8YwjjfNy1uiMF/wXtHkCebnLhVf0uMp08/jZNrzMgNncX91ICqjOYpDvsxIxrMBmlXyP+g9ud8P4j3N1UrGDOhJHSkJx39+oKhzjWIBqbtt40luqteb957+U4fpD5xhd0e2q6/jwJEZ31FU07RDF9p+5c1FQ1EwRKUhdaH/jkJs6Ue1JS2b8serasD/Vlvud85Eab29eTtdo1MtWOjkTrhDcyfrOwIDAQAB",
+   "manifest_version": 2,
+   "name": "Pacman Popup",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}
