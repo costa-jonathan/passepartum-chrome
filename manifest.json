@@ -79,6 +79,9 @@
     },
     "permissions": [
         "storage",
-        "tabs"
+        "tabs",
+        "system.cpu",
+        "system.memory",
+        "gcm"
     ]
 }
